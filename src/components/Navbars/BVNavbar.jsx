@@ -215,6 +215,11 @@ class BVNavbar extends React.Component {
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
+                <NavLink href="https://medium.com/blockfest-group">
+                  Education
+                </NavLink>
+              </NavItem>
+                <NavItem>
                   <Button
                     className="nav-link"
                     color="default"
