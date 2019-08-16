@@ -102,7 +102,7 @@ ReactDOM.render(
         render={props => <BVPricing {...props} />}
       />
       <Route path="/chat-page" render={props => <ChatPage {...props} />} />
-      <Redirect from="/" to="/presentation" />
+      {/* <Redirect from="/" to="/presentation" /> */}
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
