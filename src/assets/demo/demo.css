@@ -1555,7 +1555,7 @@
 
 /* The stuff i added is here below so that nothing is confused with the originasl */
 #hero-tx {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -1574,24 +1574,23 @@
   padding-bottom: 120px;
 }
 #sp-hero {
-  padding-top: 40px;
+  padding-top: 120px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 40px;
 }
-
-#countdown {
-  padding-top: 60px;
+#hero-section {
+  padding-top: 130px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 #main-logo {
   padding-top: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 160px;
 }
 
 #sponsor-pack {
@@ -1611,7 +1610,7 @@
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 400px;
+  padding-bottom: 150px;
 }
 
 #accordion {
@@ -1660,4 +1659,46 @@
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
+}
+
+#all-projects {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+#projects {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+
+}
+
+#service-text{
+  text-align: center; 
+  align-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  /* #your_id {width:000px;height:000px;} */
+
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* #your_id {width:000px;height:000px;} */
+  #hero-section {
+    padding-top: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* #your_id {width:000px;height:000px;} */
+}
+@media only screen and (min-width: 959px) {
+  /* #your_id {width:000px;height:000px;} */
 }

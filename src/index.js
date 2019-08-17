@@ -48,7 +48,8 @@ import InvoicePage from "views/examples/InvoicePage.jsx";
 import CheckoutPage from "views/examples/CheckoutPage.jsx";
 import ChatPage from "views/examples/ChatPage.jsx";
 import BVHome from "views/examples/BVHome.jsx";
-import BVPricing from "views/examples/BVPricing";
+import BVPricing from "views/examples/BVPricingPage.jsx";
+import BVProjectsPage from "views/examples/BVProjectsPage.jsx";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -102,7 +103,11 @@ ReactDOM.render(
         render={props => <BVPricing {...props} />}
       />
       <Route path="/chat-page" render={props => <ChatPage {...props} />} />
-      {/* <Redirect from="/" to="/presentation" /> */}
+       <Redirect from="/" to="/index" /> 
+      <Route
+        path="/all-projects"
+        render={props => <BVProjectsPage {...props} />}
+      />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

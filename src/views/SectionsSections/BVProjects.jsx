@@ -66,9 +66,9 @@ class BVProjects extends React.Component {
               <Row>
                 <Col className="mr-auto ml-auto text-center" md="8">
                   <h6 className="category text-muted">Our work</h6>
-                  <h2 className="title mt-0">
-                    Some of Our Awesome Projects - 4
-                  </h2>
+                  <h1 className="title mt-0 text-center">
+                    Some of Our Projects
+                  </h1>
                 </Col>
               </Row>
               <div className="space-50" />

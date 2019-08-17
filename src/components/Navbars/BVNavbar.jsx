@@ -111,12 +111,12 @@ class BVNavbar extends React.Component {
               </NavItem>
 
               <NavItem>
-                <NavLink href="/faq">
+                <NavLink href="#bv-services">
                   Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/faq">
+                <NavLink href="#projects">
                   Projects
                 </NavLink>
               </NavItem>

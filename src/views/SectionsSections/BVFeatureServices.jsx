@@ -26,16 +26,29 @@ class BVFeatureServices extends React.Component {
         <div className="cd-section" id="features">
         
           {/* ********* FEATURES 2 ********* */}
-          <div className="features-2">
+          <div className="features-2" id="bv-services">
+          <Row>
+                <Col className="mr-auto ml-auto text-center" md="8">
+                  <h6 className="category text-muted">Our services</h6>
+                  <h1 className="title mt-0 text-center">
+                    What We Do
+                  </h1>
+                </Col>
+                </Row>
+              <div className="space-70" />
+              <Row>
+              </Row>
             <Container>
               <Row className="align-items-center">
                 <Col className="mr-auto text-left" lg="3" md="8">
+                  <div id="service-text">
                   <h1 className="title">Services We Provide</h1>
                   <p className="description">
                     5,000 capacity venue, holding some of the latest technology
                     lighting with a 24 colour laser system Amnesia is one of the
                     islands most legendary clubs.
                   </p>
+                  
                   <Button
                     className="btn-simple"
                     color="info"
@@ -44,6 +57,7 @@ class BVFeatureServices extends React.Component {
                   >
                     Learn more <i className="tim-icons icon-alert-circle-exc" />
                   </Button>
+                  </div>
                 </Col>
                 <Col lg="8" md="12">
                   <Row>
